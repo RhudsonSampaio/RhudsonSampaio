@@ -4,7 +4,8 @@
 
     <!-- Text Area (Clean and unpolluted on the left) -->
     <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="normal" fill="#e6edf3" letter-spacing="1">Rhudson Sampaio</text>
-    <text x="83" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="normal" fill="#9da7b3" letter-spacing="0.5">Analista de Dados e Business Intelligence</text>
+    <text x="83" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="normal" fill="#9da7b3" letter-spacing="0.5">Analista de Dados | Business Intelligence</text>
+    <text x="83" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="normal" fill="#9da7b3" letter-spacing="0.5">Engenharia de Dados</text>
 
     <!-- Peripheral Dashed Lines -->
     <g stroke="#484f58" stroke-width="2" stroke-dasharray="4,6">

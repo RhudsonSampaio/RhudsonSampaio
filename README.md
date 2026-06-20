@@ -1,25 +1,14 @@
 <img src="./assets/profile-cover.svg" width="100%" alt="Abstract time-series profile cover" />
 
-**Analista de Dados e Business Intelligence**
+**Analista de Dados | Business Intelligence | Engenharia de Dados**
 
-Trabalho com dados na indústria farmacêutica, transformando informações operacionais em análises claras para apoiar decisões de negócio.
+Atuo na interseção entre Inteligência de Negócios e Engenharia de Dados na indústria farmacêutica, focado em transformar dados operacionais complexos em infraestruturas analíticas sólidas e insights de negócio.
 
-## Atuação
+Minha atuação vai de ponta a ponta: desenvolvo pipelines de extração e integração de dados, conduzo migrações de sistemas ERP (Sankhya) para ambientes de Data Lake, e construo modelagens financeiras de alta complexidade (como CPV) para abastecer dashboards gerenciais. O objetivo é sempre o mesmo: garantir qualidade, governança e alta disponibilidade da informação para as tomadas de decisão.
 
-Atuo com análise de dados, Business Intelligence e SQL em contexto corporativo.
+Atualmente, sou graduando em Ciência de Dados e Inteligência Artificial, aprofundando meus estudos em Graph Neural Networks (GNNs), Teoria dos Grafos e fundamentos de arquitetura de dados modernos.
 
-Meu trabalho envolve extração, validação e organização de dados, construção de dashboards gerenciais, modelagem de indicadores e estruturação de bases analíticas a partir de sistemas empresariais, especialmente ERP.
-
-Também venho aprofundando fundamentos de Ciência de Dados e Engenharia de Dados, com foco em qualidade, integração e organização da informação.
-
-## Stack
-
-SQL · Python · Power BI · Excel · Sankhya ERP
-DuckDB · PostgreSQL · Docker · Debian Linux · Git
-
-## Em estudo
-
-Ciência de Dados e Inteligência Artificial, com interesse em análise de dados, Graph Neural Networks, Teoria dos Grafos e fundamentos de arquitetura de dados.
+**Stack Técnico:** SQL · Python · Power BI · Excel · Sankhya ERP · DuckDB · PostgreSQL · Azure · Docker · Debian Linux · Git.
 
 ## Contato
 
