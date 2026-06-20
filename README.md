@@ -1,4 +1,5 @@
 <img src="./assets/profile-cover.svg" width="100%" alt="Abstract time-series profile cover" />
+
 **Analista de Dados e Business Intelligence**
 
 Trabalho com dados na indústria farmacêutica, transformando informações operacionais em análises claras para apoiar decisões de negócio.
