@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Mask to hide lines inside the hollow nodes so we don't need a solid background color -->
+        <mask id="hollow-nodes">
+            <rect width="1200" height="320" fill="white" />
+            <rect x="748" y="178" width="24" height="24" fill="black" />
+            <rect x="868" y="138" width="24" height="24" fill="black" />
+            <rect x="808" y="58" width="24" height="24" fill="black" />
+            <rect x="988" y="98" width="24" height="24" fill="black" />
+            <rect x="1028" y="208" width="24" height="24" fill="black" />
+            <rect x="1128" y="158" width="24" height="24" fill="black" />
+        </mask>
+    </defs>
+
+    <!-- Text Area (Clean and unpolluted on the left) -->
+    <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="normal" fill="#24292f" letter-spacing="1">Rhudson Sampaio</text>
+    <text x="83" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="normal" fill="#57606a" letter-spacing="0.5">Analista de Dados e Business Intelligence</text>
+
+    <!-- Peripheral Dashed Lines -->
+    <g stroke="#afb8c1" stroke-width="2" stroke-dasharray="4,6" mask="url(#hollow-nodes)">
+        <line x1="700" y1="60" x2="880" y2="150" />
+        <line x1="660" y1="150" x2="880" y2="150" />
+        <line x1="720" y1="270" x2="760" y2="190" />
+        <line x1="1000" y1="110" x2="1160" y2="50" />
+        <line x1="1040" y1="220" x2="1100" y2="290" />
+    </g>
+
+    <!-- Hollow Circle (Strategic Position: Anchoring the Final Output Node) -->
+    <circle cx="1140" cy="170" r="45" fill="none" stroke="#afb8c1" stroke-width="2" />
+
+    <!-- Primary Gold Edges -->
+    <g stroke="#b08800" stroke-width="4" mask="url(#hollow-nodes)">
+        <line x1="760" y1="190" x2="880" y2="150" />
+        <line x1="820" y1="70" x2="1000" y2="110" />
+        <!-- Multi-head parallel edge from B to D -->
+        <line x1="878" y1="154" x2="998" y2="114" stroke-width="2" />
+        <line x1="882" y1="146" x2="1002" y2="106" stroke-width="2" />
+        <line x1="880" y1="150" x2="1040" y2="220" />
+        <line x1="1000" y1="110" x2="1040" y2="220" />
+        <line x1="1040" y1="220" x2="1140" y2="170" />
+        
+        <!-- Self Loops (GNN Auto-conexões) -->
+        <polyline points="874,138 874,120 886,120 886,138" fill="none" stroke-width="3" />
+        <polyline points="994,98 994,80 1006,80 1006,98" fill="none" stroke-width="3" />
+    </g>
+
+    <!-- Node Feature Vectors (Input Embeddings) -->
+    <g fill="#b08800" opacity="0.8">
+        <!-- Input A -->
+        <rect x="736" y="178" width="4" height="6" />
+        <rect x="736" y="187" width="4" height="6" />
+        <rect x="736" y="196" width="4" height="6" />
+        <!-- Input C -->
+        <rect x="796" y="58" width="4" height="6" />
+        <rect x="796" y="67" width="4" height="6" />
+        <rect x="796" y="76" width="4" height="6" />
+    </g>
+
+    <!-- Peripheral Nodes (Small Dark Gray Squares) -->
+    <g fill="#afb8c1">
+        <rect x="696" y="56" width="8" height="8" />
+        <rect x="656" y="146" width="8" height="8" />
+        <rect x="716" y="266" width="8" height="8" />
+        <rect x="1156" y="46" width="8" height="8" />
+        <rect x="1096" y="286" width="8" height="8" />
+    </g>
+
+    <!-- Main Gold Nodes (Hollow Squares) -->
+    <g fill="transparent" stroke="#b08800" stroke-width="3">
+        <!-- A: 760, 190 -->
+        <rect x="748" y="178" width="24" height="24" />
+        <!-- B: 880, 150 -->
+        <rect x="868" y="138" width="24" height="24" />
+        <!-- C: 820, 70 -->
+        <rect x="808" y="58" width="24" height="24" />
+        <!-- D: 1000, 110 -->
+        <rect x="988" y="98" width="24" height="24" />
+        <!-- E: 1040, 220 -->
+        <rect x="1028" y="208" width="24" height="24" />
+        <!-- F: 1140, 170 -->
+        <rect x="1128" y="158" width="24" height="24" />
+    </g>
+
+    <!-- Inner Gold Blocks (for B, D, E, F) -->
+    <g fill="#b08800">
+        <!-- B: 880, 150 -->
+        <rect x="875" y="145" width="10" height="10" />
+        <!-- D: 1000, 110 -->
+        <rect x="995" y="105" width="10" height="10" />
+        <!-- E: 1040, 220 -->
+        <rect x="1035" y="215" width="10" height="10" />
+        <!-- F: 1140, 170 (Final Target/Insight) -->
+        <rect x="1135" y="165" width="10" height="10" />
+    </g>
+</svg>

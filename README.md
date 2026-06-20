@@ -1,4 +1,8 @@
-<img src="./assets/profile-cover.svg" width="100%" alt="Abstract time-series profile cover" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cover-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-cover-light.svg">
+  <img alt="Abstract time-series profile cover" src="./assets/profile-cover-dark.svg" width="100%">
+</picture>
 
 **Analista de Dados e Business Intelligence**
 
