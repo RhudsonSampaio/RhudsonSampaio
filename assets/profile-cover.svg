@@ -1,91 +1,65 @@
 <svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
-    <!-- Pure Black Void Background -->
+    <!-- Pure Dark Void Background -->
     <rect width="1200" height="320" fill="#0b0f14" />
-
-    <!-- Top Right Gray Circle (Direct reference to LinkedIn cover) -->
-    <circle cx="1100" cy="70" r="28" fill="#9da7b3" />
-
-    <!-- Brutalist Data Skyline (Reference to the solid gold jagged foil at the bottom) -->
-    <!-- Back layer (Dark Gold) -->
-    <path d="M 500 320 
-             L 500 260 L 520 260 
-             L 520 290 L 560 290 
-             L 560 210 L 600 210 
-             L 600 250 L 640 250 
-             L 640 180 L 680 180 
-             L 680 230 L 720 230 
-             L 720 200 L 760 200 
-             L 760 270 L 800 270 
-             L 800 160 L 840 160 
-             L 840 220 L 920 220 
-             L 920 190 L 960 190 
-             L 960 240 L 1000 240 
-             L 1000 150 L 1080 150 
-             L 1080 210 L 1120 210 
-             L 1120 170 L 1200 170 
-             L 1200 320 Z" 
-          fill="#8a6f2f" opacity="0.4" />
-
-    <!-- Front layer (Main Gold) -->
-    <path d="M 500 320 
-             L 500 280 L 540 280 
-             L 540 240 L 580 240 
-             L 580 270 L 620 270 
-             L 620 200 L 660 200 
-             L 660 250 L 700 250 
-             L 700 220 L 740 220 
-             L 740 280 L 780 280 
-             L 780 180 L 860 180 
-             L 860 240 L 900 240 
-             L 900 210 L 940 210 
-             L 940 260 L 980 260 
-             L 980 170 L 1040 170 
-             L 1040 230 L 1100 230 
-             L 1100 190 L 1200 190 
-             L 1200 320 Z" 
-          fill="#c9a24a" opacity="0.9" />
-
-    <!-- GNN Flow: Sparse, thick orthogonal edges rising from the data blocks -->
-    <g stroke="#8a6f2f" stroke-width="4" fill="none" stroke-linejoin="miter">
-        <polyline points="560,240 560,120 628,120" />
-        <polyline points="640,200 640,132" />
-        <polyline points="760,280 760,80 868,80" />
-        <polyline points="880,240 880,132" />
-        
-        <polyline points="652,120 868,120" />
-        <polyline points="892,80 1028,80" />
-        <polyline points="892,120 948,120" />
-        <polyline points="972,120 1040,120 1040,92" />
-    </g>
-
-    <!-- Heavy primary data flow -->
-    <g stroke="#c9a24a" stroke-width="8" fill="none" stroke-linejoin="miter">
-        <polyline points="640,108 640,60 868,60" />
-        <polyline points="892,60 1040,60 1040,68" />
-        <polyline points="1052,70 1072,70" />
-    </g>
-
-    <!-- Brutalist Nodes (Stark Squares) -->
-    <g fill="#0b0f14" stroke="#c9a24a" stroke-width="4">
-        <rect x="628" y="108" width="24" height="24" />
-        <rect x="868" y="108" width="24" height="24" />
-        <rect x="948" y="108" width="24" height="24" />
-        
-        <rect x="868" y="68" width="24" height="24" />
-        <rect x="1028" y="68" width="24" height="24" />
-        
-        <rect x="868" y="48" width="24" height="24" />
-    </g>
-    
-    <!-- Data indicators inside active nodes -->
-    <g fill="#e6edf3">
-        <rect x="636" y="116" width="8" height="8" />
-        <rect x="876" y="56" width="8" height="8" />
-        <rect x="1036" y="76" width="8" height="8" />
-    </g>
 
     <!-- Text Area (Clean and unpolluted on the left) -->
     <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="normal" fill="#e6edf3" letter-spacing="1">Rhudson Sampaio</text>
     <text x="83" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="normal" fill="#9da7b3" letter-spacing="0.5">Analista de Dados e Business Intelligence</text>
 
+    <!-- Peripheral Dashed Lines -->
+    <g stroke="#484f58" stroke-width="2" stroke-dasharray="4,6">
+        <line x1="700" y1="60" x2="880" y2="150" />
+        <line x1="660" y1="150" x2="880" y2="150" />
+        <line x1="720" y1="270" x2="760" y2="190" />
+        <line x1="1000" y1="110" x2="1160" y2="50" />
+        <line x1="1040" y1="220" x2="1100" y2="290" />
+    </g>
+
+    <!-- Hollow Circle -->
+    <circle cx="1080" cy="80" r="45" fill="none" stroke="#484f58" stroke-width="2" />
+
+    <!-- Primary Gold Edges -->
+    <g stroke="#c9a24a" stroke-width="4">
+        <line x1="760" y1="190" x2="880" y2="150" />
+        <line x1="820" y1="70" x2="1000" y2="110" />
+        <line x1="880" y1="150" x2="1000" y2="110" />
+        <line x1="880" y1="150" x2="1040" y2="220" />
+        <line x1="1000" y1="110" x2="1040" y2="220" />
+        <line x1="1040" y1="220" x2="1140" y2="170" />
+    </g>
+
+    <!-- Peripheral Nodes (Small Dark Gray Squares) -->
+    <g fill="#484f58">
+        <rect x="696" y="56" width="8" height="8" />
+        <rect x="656" y="146" width="8" height="8" />
+        <rect x="716" y="266" width="8" height="8" />
+        <rect x="1156" y="46" width="8" height="8" />
+        <rect x="1096" y="286" width="8" height="8" />
+    </g>
+
+    <!-- Main Gold Nodes (Hollow Squares) -->
+    <g fill="#0b0f14" stroke="#c9a24a" stroke-width="3">
+        <!-- A: 760, 190 -->
+        <rect x="748" y="178" width="24" height="24" />
+        <!-- B: 880, 150 -->
+        <rect x="868" y="138" width="24" height="24" />
+        <!-- C: 820, 70 -->
+        <rect x="808" y="58" width="24" height="24" />
+        <!-- D: 1000, 110 -->
+        <rect x="988" y="98" width="24" height="24" />
+        <!-- E: 1040, 220 -->
+        <rect x="1028" y="208" width="24" height="24" />
+        <!-- F: 1140, 170 -->
+        <rect x="1128" y="158" width="24" height="24" />
+    </g>
+
+    <!-- Inner Gold Blocks (for B, D, E) -->
+    <g fill="#c9a24a">
+        <!-- B: 880, 150 -->
+        <rect x="875" y="145" width="10" height="10" />
+        <!-- D: 1000, 110 -->
+        <rect x="995" y="105" width="10" height="10" />
+        <!-- E: 1040, 220 -->
+        <rect x="1035" y="215" width="10" height="10" />
+    </g>
 </svg>
