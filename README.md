@@ -4,15 +4,17 @@
 
 ## Atuação
 
-Atuo na interseção entre Inteligência de Negócios e Engenharia de Dados na indústria farmacêutica, focado em transformar dados operacionais complexos em infraestruturas analíticas sólidas e insights de negócio.
+Atuo com análise de dados e Business Intelligence na indústria farmacêutica, com interface direta entre sistemas corporativos, regras de negócio e indicadores gerenciais.
 
-Minha atuação vai de ponta a ponta: desenvolvo pipelines de extração e integração de dados, conduzo migrações de sistemas ERP (Sankhya) para ambientes de Data Lake, e construo modelagens financeiras de alta complexidade (como CPV) para abastecer dashboards gerenciais. O objetivo é sempre o mesmo: garantir qualidade, governança e alta disponibilidade da informação para as tomadas de decisão.
+Minha atuação envolve dados de ERP, modelagem de indicadores, validação de bases, construção de dashboards, análises financeiras e estruturação de informações para apoiar decisões de negócio.
+
+Também venho ampliando minha base técnica em engenharia de dados, principalmente em organização, integração, qualidade e disponibilidade da informação.
 
 ## Em estudo
 
-Atualmente, sou graduando em Ciência de Dados e Inteligência Artificial, aprofundando meus estudos em Graph Neural Networks (GNNs), Teoria dos Grafos e fundamentos de arquitetura de dados modernos.
+Graduando em Ciência de Dados e Inteligência Artificial, com interesse em análise de dados, Graph Neural Networks, Teoria dos Grafos, modelagem e arquitetura de dados.
 
-## Stack Técnico
+## Stack
 
 SQL · Python · Power BI · Excel · Sankhya ERP
 DuckDB · PostgreSQL · Azure · Docker · Debian Linux · Git
