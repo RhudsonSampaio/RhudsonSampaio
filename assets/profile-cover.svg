@@ -1,23 +1,13 @@
 <svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <!-- Mask to hide lines inside the hollow nodes so we don't need a solid background color -->
-        <mask id="hollow-nodes">
-            <rect width="1200" height="320" fill="white" />
-            <rect x="748" y="178" width="24" height="24" fill="black" />
-            <rect x="868" y="138" width="24" height="24" fill="black" />
-            <rect x="808" y="58" width="24" height="24" fill="black" />
-            <rect x="988" y="98" width="24" height="24" fill="black" />
-            <rect x="1028" y="208" width="24" height="24" fill="black" />
-            <rect x="1128" y="158" width="24" height="24" fill="black" />
-        </mask>
-    </defs>
+    <!-- Solid Dark Background (Acts as a universal dark banner) -->
+    <rect width="1200" height="320" fill="#0b0f14" />
 
     <!-- Text Area (Clean and unpolluted on the left) -->
     <text x="80" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="normal" fill="#e6edf3" letter-spacing="1">Rhudson Sampaio</text>
     <text x="83" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="normal" fill="#9da7b3" letter-spacing="0.5">Analista de Dados e Business Intelligence</text>
 
     <!-- Peripheral Dashed Lines -->
-    <g stroke="#484f58" stroke-width="2" stroke-dasharray="4,6" mask="url(#hollow-nodes)">
+    <g stroke="#484f58" stroke-width="2" stroke-dasharray="4,6">
         <line x1="700" y1="60" x2="880" y2="150" />
         <line x1="660" y1="150" x2="880" y2="150" />
         <line x1="720" y1="270" x2="760" y2="190" />
@@ -29,7 +19,7 @@
     <circle cx="1140" cy="170" r="45" fill="none" stroke="#484f58" stroke-width="2" />
 
     <!-- Primary Gold Edges -->
-    <g stroke="#c9a24a" stroke-width="4" mask="url(#hollow-nodes)">
+    <g stroke="#c9a24a" stroke-width="4">
         <line x1="760" y1="190" x2="880" y2="150" />
         <line x1="820" y1="70" x2="1000" y2="110" />
         <!-- Multi-head parallel edge from B to D -->
@@ -66,7 +56,7 @@
     </g>
 
     <!-- Main Gold Nodes (Hollow Squares) -->
-    <g fill="transparent" stroke="#c9a24a" stroke-width="3">
+    <g fill="#0b0f14" stroke="#c9a24a" stroke-width="3">
         <!-- A: 760, 190 -->
         <rect x="748" y="178" width="24" height="24" />
         <!-- B: 880, 150 -->
