@@ -1,16 +1,21 @@
-## Hi there 👋
+# Rhudson Sampaio
+**Analista de Dados e Business Intelligence**
 
-<!--
-**RhudsonSampaio/RhudsonSampaio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Trabalho com dados na indústria farmacêutica, transformando informações operacionais em análises claras para apoiar decisões de negócio.
 
-Here are some ideas to get you started:
+## Atuação
+Atuo com análise de dados, Business Intelligence e SQL em contexto corporativo.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Meu trabalho envolve extração, validação e organização de dados, construção de dashboards gerenciais, modelagem de indicadores e estruturação de bases analíticas a partir de sistemas empresariais, especialmente ERP.
+
+Também venho aprofundando fundamentos de Ciência de Dados e Engenharia de Dados, com foco em qualidade, integração e organização da informação.
+
+## Stack
+SQL · Python · Power BI · Excel · Sankhya ERP
+DuckDB · PostgreSQL · Docker · Debian Linux · Git
+
+## Em estudo
+Ciência de Dados e Inteligência Artificial, com interesse em análise de dados, Graph Neural Networks, Teoria dos Grafos e fundamentos de arquitetura de dados.
+
+## Contato
+LinkedIn: [https://www.linkedin.com/in/rhudson-sampaio](https://www.linkedin.com/in/rhudson-sampaio)
