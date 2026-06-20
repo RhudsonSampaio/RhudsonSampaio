@@ -22,10 +22,28 @@
     <g stroke="#c9a24a" stroke-width="4">
         <line x1="760" y1="190" x2="880" y2="150" />
         <line x1="820" y1="70" x2="1000" y2="110" />
-        <line x1="880" y1="150" x2="1000" y2="110" />
+        <!-- Multi-head parallel edge from B to D -->
+        <line x1="878" y1="154" x2="998" y2="114" stroke-width="2" />
+        <line x1="882" y1="146" x2="1002" y2="106" stroke-width="2" />
         <line x1="880" y1="150" x2="1040" y2="220" />
         <line x1="1000" y1="110" x2="1040" y2="220" />
         <line x1="1040" y1="220" x2="1140" y2="170" />
+        
+        <!-- Self Loops (GNN Auto-conexões) -->
+        <polyline points="874,138 874,120 886,120 886,138" fill="none" stroke-width="3" />
+        <polyline points="994,98 994,80 1006,80 1006,98" fill="none" stroke-width="3" />
+    </g>
+
+    <!-- Node Feature Vectors (Input Embeddings) -->
+    <g fill="#c9a24a" opacity="0.8">
+        <!-- Input A -->
+        <rect x="736" y="178" width="4" height="6" />
+        <rect x="736" y="187" width="4" height="6" />
+        <rect x="736" y="196" width="4" height="6" />
+        <!-- Input C -->
+        <rect x="796" y="58" width="4" height="6" />
+        <rect x="796" y="67" width="4" height="6" />
+        <rect x="796" y="76" width="4" height="6" />
     </g>
 
     <!-- Peripheral Nodes (Small Dark Gray Squares) -->
